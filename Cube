@@ -1,0 +1,18 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class WorkAtTech{
+    public static void main(String[] args){
+        int l = 7;
+
+        if(l<=7){
+
+            int a = 6*l*l;
+            int v = l*l*l;
+
+            System.out.println(a + " " + v);
+        }
+    }
+}
