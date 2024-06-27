@@ -1,0 +1,13 @@
+class WorkAtTech{
+    public static void main (String[] args) 
+	{
+        double a = 1500;
+        double y = 1.4;
+        double r = 3;
+
+		    double intr = (a*y*r)/100 ;
+        String formattedString = String.format("%.6f", intr);
+		
+		    System.out.println(formattedString);
+  
+  }
