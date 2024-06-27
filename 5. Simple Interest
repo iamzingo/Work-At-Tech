@@ -1,13 +1,20 @@
 class WorkAtTech{
-    public static void main (String[] args) 
-	{
-        double a = 1500;
-        double y = 1.4;
-        double r = 3;
+    public static void main (String[] args){
 
-		    double intr = (a*y*r)/100 ;
+        Scanner sc = new Scanner(System.in);
+	//a is the amount.
+        double a = sc.nextDouble();
+
+	//y is no. of years
+        double y = sc.nextDouble();
+
+	//r is rate of interest
+        double r = sc.nextDouble();
+
+	double intr = (a*y*r)/100.0 ;
         String formattedString = String.format("%.6f", intr);
-		
-		    System.out.println(formattedString);
-  
+	System.out.print(formattedString);
+	
+	sc.close();
   }
+}
